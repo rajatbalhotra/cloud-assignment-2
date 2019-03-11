@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Usage and Administration Portal</title>
+</head>
+<body>
+{% if session['logged_in'] %}
+ 
+You're logged in already!
+ 
+{% else %}
+{% with messages = get_flashed_messages() %}
+<form action="/login" method="POST">
+<input type="username" name="username" placeholder="Username">
+<input type="password" name="password" placeholder="Password">
+<input type="submit" value="Log in">
+{% endwith %}
+</form>{% endif %}
+</body>
+</html>
