@@ -1,4 +1,4 @@
-# **Cloud Usage Moniter**
+# **Cloud Usage Monitor**
 We are going to implement cloud usage monior. Here the agent should respond to VIM event, stores them in database. 
 
 ## **Introduction**
