@@ -1,5 +1,5 @@
 # **Cloud Usage Monitor**
-We are going to implement cloud usage monior. Here the agent should respond to VIM event, stores them in database. 
+We are going to implement cloud usage monitor. We create Usage and admin portal that consist of authentication of user, a dashboard consist of VM id, user id, start and stop time and total usage charges. 
 
 ## **Introduction**
 
